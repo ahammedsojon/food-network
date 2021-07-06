@@ -35,7 +35,6 @@ section{
 }
 .half-width{
     width: 50%;
-    /* padding-left: 5%; */
 }
 .half-width img{
     width: 100%;;
@@ -64,8 +63,6 @@ section.about{
     padding: 0;
     margin-bottom: 50px;
 }
-.about .about-img{
-}
 .about .about-img img{
     height: 500px;
     object-fit: contain;
@@ -83,6 +80,7 @@ section.about{
     font-size: 16px;
     line-height: 1.5;
 }
+
 .recipie .recipie-description h2,
 .testimonial .team-description h2,
 .contact .contact-description h2{
@@ -127,15 +125,15 @@ section.about{
 .team-member{
     text-align: center;
 }
+.recipie .recipie-item img{
+    max-width: 100%;
+}
 .testimonial .team-member img{
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid #fc8f49;
-}
-.recipie .recipie-item img{
-    max-width: 100%;
 }
 .recipie .recipie-item h3,
 .testimonial .team-member h3{
@@ -156,7 +154,6 @@ section.about{
 }
 .subscribe-number{
     width: 33%;
-    /* margin-right: 2%; */
     text-align: center;
 }
 .subscribe-number h1{
@@ -170,13 +167,6 @@ section.about{
     font-size: 14px;
 }
 
-/* .contact h2{
-    color: #575757;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 30px;
-} */
 .contact form{
     width: 100%;
 }
