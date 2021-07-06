@@ -25,7 +25,8 @@ section{
 .link-btn{
     text-decoration: none;
     color: #ffffff;
-    background-image: linear-gradient(#fb944a, #fd4d2f);
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
     font-size: 18px;
     padding: 15px 30px;
     border-radius: 30px;
@@ -79,6 +80,7 @@ section.about{
     padding-right: 40px;
     font-size: 16px;
     line-height: 1.5;
+    text-align: justify;
 }
 
 .recipie .recipie-description h2,
